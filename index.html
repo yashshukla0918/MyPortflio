@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home | Natrajan Technologies</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <!-- UTIL-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js"
+    integrity="sha512-oHBLR38hkpOtf4dW75gdfO7VhEKg2fsitvHZYHZjObc4BPKou2PGenyxA5ZJ8CCqWytBx5wpiSqwVEBy84b7tw=="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./components/css/iphone.css">
+  <link rel="stylesheet" href="./components/css/style.css">
+  <style>
+    body {
+      background-color: white;
+    }
+
+    .nav_link {
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 16px;
+    }
+
+    .navbar-brand {
+      font-size: 24px;
+    }
+
+    .nav_link:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+
+    }
+    .card {
+      margin-top: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  padding: 3rem;
+}
+
+.img {
+  border-radius: 5px 5px 0 0;
+  height: 12rem;
+  width: 16rem;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container-card {
+  padding: 2px 16px;
+}
+
+  
+
+::-webkit-scrollbar {
+                width: 0px;
+            }
+
+
+  .row-tech:after {
+  content: "";
+  display: table;
+  clear: both;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  /* height: 300px; Should be removed. Only for demonstration */
+}
+@media screen and (max-width:500px) {
+  
+  .tech{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  } 
+  .column{
+    width: 100%;
+    float: none;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <p id="oops">Please Open this website in big screen Phone/Computer</p>
+  <div id="body">
+  <div class="nav-fixed">
+    <nav class="navbar navbar-default" id="main_nav" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" id="toogleb" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Natrajan Technologies</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav_link"><a href="#home">Home</a></li>
+            <li class="nav_link"><a href="#tech">Technologies</a></li>
+            <li class="nav_link"><a href="#pro">Projects</a></li>
+            <li class="nav_link"><a href="#cont">Contact</a></li>
+            <!-- <li class="nav_link"><a href="#about">About Us</a></li> -->
+            <li><a id="colormode" class="glyphicon glyphicon-adjust" style="font-size: 28px;"></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </div>
+
+
+
+
+
+
+  <div class="modal fade description" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div id="modal-body">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <br id="home"><br><br>
+  <!--Container-->
+  <div class="container-fluid">
+    
+    <!--first ROW-->
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="intro">
+          
+            <h1 id="heading1" class="">Welcome to Natrajan Technologies</h1>
+            <div id="content-para">
+            <p id="para" class="para pull-left">
+              We are glad you are here !<br>
+              As we "<b>Natrajan Technologies</b>" gives the assurance of quality and upto the mark product & services.<br> We use cutting edge technologies to develop your dream into the real world objects with our heart's.
+            </p>
+            <p id="para2" class="pull-right para">
+              Our team is full of creative and professionals who give their 100% in development of your dream
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--first Closed-->
+    </div><br id="tech"><br>
+    
+    <!--About -->
+
+
+    <div class="row">
+    <div class="row-tech" >
+      <center><h1 >Technologies we work on</h1></center>
+      <div class="tech">
+        <div class="column">
+          <div class="card">
+            <img src="./components/img/flutter.png" class="img " alt="Avatar" style="width:100%">
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="./components/img/react.svg" class="img" alt="Avatar" style="width:100%">
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="./components/img/nodejs.svg" class="img" alt="Avatar" style="width:100% ;background-color: rgba(0, 0, 0, 0.1);">
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="./components/img/angular.svg" class="img" alt="Avatar" style="width:100%">
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="./components/img/html.svg" class="img" alt="Avatar" style="width:100%">
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="./components/img/php.svg" class="img" alt="Avatar" style="width:100%">
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="./components/img/js.svg" class="img" alt="Avatar" style="width:100%">
+          </div>
+        </div>
+      </div>
+      <!--About Closed-->
+</div>
+    </div><br id="pro"><br>
+
+    <div class="row no-bg text-center" style="position: inherit;" >
+      <center><h1 style="font-family: 'Courier New', Courier, monospace;">Sample Projects</h1></center>
+      <div class="side-right pull-right">
+      </div>
+      <div id="sidebar-container">
+        <button style="width: 100%;" id="sidebar-toggle" class="btn btn-danger"><span id="icon"
+            class="glyphicon glyphicon-arrow-right pull-left"></span><b>Projects</b></button>
+        <div id="sidebar">
+          <ul class="nav" id="link">
+            <img id='load' src="./components/img/gif3.gif" alt="Loading...">
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-12  on" id="phn-container">
+        <div class="iphone" id="phn-1">
+          <center>
+            <span id="mob-1" class="btn btn-sm btn-info side-btn">Mobile</span>
+            <span id="tab-1" class="btn btn-sm btn-info side-btn">Tablet</span>
+            <span id="information" data-toggle="modal" data-target=".description"
+              class="glyphicon glyphicon-info-sign side-btn"></span>
+          </center>
+          <div class="iphone-top">
+            <span class="camera"></span>
+            <span class="sensor"></span>
+            <span class="speaker"></span>
+          </div>
+          <div class="top-bar"></div>
+          <center> <iframe id="screen-1" src="" class="iphone-screen">
+            </iframe></center>
+          <div class="buttons">
+            <span class="on-off"></span>
+            <span class="sleep"></span>
+            <span class="up"></span>
+            <span class="down"></span>
+          </div>
+          <div class="bottom-bar"></div>
+          <div class="iphone-bottom">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--ROW-1 Colse-->
+
+
+
+<br id="cont"><br>
+    <!--Contact ROW-->
+    <div class="row" >
+      <center><h1  style="font-family: 'Courier New', Courier, monospace;">Contact Us</h1></center>
+      <div class="col-sm-4 dis"></div>
+      <div class="col-sm-4 col-sm-12 message">
+        <br><br>
+        <div class="form">
+          <div class="form-group text-center">
+            <h2><b>Hello There,</b></h2>
+          </div>
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" placeholder="Your Full Name" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Company Name</label>
+            <input type="text" placeholder="Company Name" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="Email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Message" style="resize: vertical;" class="form-control"></textarea>
+          </div>
+          <div class="form-group text-center">
+            <input type="button" value="Send" id="send" class="btn btn-primary btn-block">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 dis"></div>
+      <!--Contact Closed-->
+    </div><br><br><br>
+    
+
+    <!--Container Closed-->
+  </div>
+
+</div>
+
+
+
+
+  <script src="components/js/worker.js"></script>
+</body>
+
+</html>
