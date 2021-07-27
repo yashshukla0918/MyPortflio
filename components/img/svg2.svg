@@ -1,0 +1,12 @@
+<svg width="900" height="400" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;" stroke="null">
+ <g stroke="null" id="Layer_1">
+  <title stroke="null">Layer 1</title>
+  <path transform="rotate(49.284 439.085 252)" stroke="#000" id="svg_3" d="m-283.13708,252.0001l722.22213,-612.03376l722.22213,612.03376l-722.22213,612.03376l-722.22213,-612.03376z" fill="url(#svg_4)"/>
+ </g>
+ <defs style="vector-effect: non-scaling-stroke;" stroke="null">
+  <linearGradient y2="0" x2="1" y1="0.58984" x1="0.34766" id="svg_4">
+   <stop offset="0" stop-opacity="0.99609" stop-color="#7f00ff"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#ff00ff"/>
+  </linearGradient>
+ </defs>
+</svg>
